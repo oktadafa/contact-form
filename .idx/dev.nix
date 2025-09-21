@@ -28,4 +28,9 @@
       # To run something each time the workspace is first created, use the `onStart` hook
     };
   };
+  services = {
+    mysql = {
+      enable = true;
+    };
+  };
 }
